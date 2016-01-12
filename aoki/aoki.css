@@ -1,0 +1,164 @@
+body {
+  background-image: url(images/-01.jpg);
+  font-family: fantasy;
+  font-weight: bold;
+}
+header {
+  width: 600px;
+  height: 100px;
+  background-color: #008000;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 20px;
+  color: #ffff00;
+}
+h1 {
+  width: 540px;
+  margin-left: 20px;
+  float: left;
+  border: 5px solid #DDD;
+  padding: 10px 0 0 10px;
+  border-radius: 20px;
+
+}
+div#tab {
+  text-align: center;
+  margin-bottom: 50px;
+}
+div#slide {
+  width: 840px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  height: 60vh;
+  background-image: url(images/3814272138_c6414ffa1e_b.jpg),
+                    url(images/20150517_pencil_1200_w800.jpg),
+                    url(images/l201107062000.jpg);
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat;
+  animation-name:name;
+  animation-duration:10s;
+  animation-delay:2s;
+  animation-iteration-count: infinite
+}
+
+@keyframes name {
+    0% {background-image: url(images/3814272138_c6414ffa1e_b.jpg);}
+   30% {background-image: url(images/20150517_pencil_1200_w800.jpg);}
+   60% {background-image: url(images/l201107062000.jpg);}
+  100% {background-image: url(images/3814272138_c6414ffa1e_b.jpg);}
+}
+.btn {
+    background: #008000;
+    border: 5px solid #DDD;
+    color: #ffff00;
+    width: 100px;
+    padding: 10px 0;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 200%;
+}
+
+h2#kodawari {
+  height: 50px;
+  width: auto;
+  background-color: #ffff00;
+  border-radius: 20px;
+  text-align: center;
+  color: #008000;
+}
+
+figure {
+  float: right;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  height: 280px;
+}
+figcaption {
+  color: #ffffff;
+  font-size: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  -webkit-transform: rotate(90deg) scale(3);
+  transform: rotate(90deg) scale(3);
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+}
+figure:hover figcaption {
+  -webkit-transform: rotate(360deg) scale(1);
+  transform: rotate(360deg) scale(1);
+  opacity: 1;
+}
+div#tetyou {
+  background-color: #ffa500;
+  overflow: hidden;
+  border: solid;
+  border-radius: 20px;
+  color: #4b0082;
+}
+
+figure#thikyuu {
+  float: left;
+  margin-top: 200px;
+}
+div#thikyuu {
+  background-color: #ffa500;
+  overflow: hidden;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  border: solid;
+  border-radius: 20px;
+  color: #4b0082;
+}
+h2#otoiawase {
+  height: 50px;
+  width: auto;
+  background-color: #0000ff;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffff00;
+}
+
+form#form {
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: #a9a9a9;
+  width: 500px;
+  text-align: center;
+  border-radius: 20px;
+
+}
+h2#annai {
+  height: 50px;
+  width: auto;
+  background-color: #696969;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+}
+div#map {
+  background-color: white;
+  width: 840px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+p#map {
+  text-align: center;
+}
+p#otoi {
+  background-color: #696969;
+  border-radius: 20px;
+  font-size: 80%;
+}
