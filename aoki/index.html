@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset = "UTF-8">
+  <title>文具のアオキ -Stationery store Aoki-</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery.bxslider.min.js"></script>
+  <link href="jquery.bxslider.css" rel="stylesheet" />
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        auto: true,
+        useCSS:false,
+        slideWidth: 640,
+
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="top">
+    <div id="toph1">
+      <h1>文具のアオキ -Stationery store Aoki-</h1>
+    </div>
+    <div id="link">
+      <ul>
+        <li id="toplink"><a href="">Top</a></li>
+        <li id="toplink"><a href="">商品案内</a></li>
+        <li id="toplink"><a href="">お問い合わせ</a></li>
+        <li id="toplink"><a href="">会社案内</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="anitop" >
+    <ul class="bxslider">
+      <li><img src="images/top1.jpg" height="480" width="640"></li>
+      <li><img src="images/top2.jpg" height="480" width="640"></li>
+      <li><img src="images/top3.jpg" height="480" width="640"></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container clearfix">
+
+  <div class="grid8 first">
+    <div id="free">
+     <div id="area">
+       <p>最新情報</p>
+     </div>
+
+     <div id="newsarea">
+      <ul style="list-style:none;" id="test">
+        <li id="newstext">2016年01月11日1500円以上の買い物で送料無料キャンペーン</li>
+        <li id="newstext">2100年01月01日最新情報をここに記載します</li>
+        <li id="newstext">2100年01月01日最新情報をここに記載します</li>
+        <li id="newstext">2100年01月01日最新情報をここに記載します</li>
+        <li id="newstext">2100年01月01日最新情報をここに記載します</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="grid4">
+  <div id="notice">
+    <div id="area">
+      <p>期間限定キャンペーン</p>
+    </div>
+    <p id="areatext">1500円以上のお買い物で送料無料！</p>
+  </div>
+</div>
+
+
+<div class="grid4">
+  <div id="notice2">
+    <div id="area">
+      <p>Facebook・Twitter</p>
+    </div>
+    <a href=""><img id="facebook" src="images/Facebook-114.png" height="38" width="114"></a>
+    <a href=""><img id="twitter" src="images/twitter.jpg" height="85" width="114"></a>
+  </div>
+</div>
+</div>
+<!-- topページここまで -->
+
+<div id="pageborder">
+  <h2>商品案内</h2>
+</div>
+
+<div class="container clearfix">
+  <div class="grid12 first">
+    <div id="product">
+      <img id="productimg" src="images/diary.jpg" height="210" width="300">
+      <div id="producttext1">
+        <h3>システム手帳</h3>
+        <p>選び抜かれた高品質な革を職人が丹念に仕上げた、丈夫で機能的なシステム手帳です。<br>バイブルサイズは、どなたにもお使いいただけるスタンダードな大きさ。<br>
+          美しさと耐久性を兼ね備えた本品は、長く使える最高のパートナーとなるでしょう。</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid12">
+    <div id="product">
+        <img id="productimg" src="images/globe.jpg" height="210" width="300">
+        <div id="producttext2">
+          <h3>地球儀</h3>
+          <p>地球儀というと、何の変哲もない商品のように思われがちですが、新しい作成法、<br>新しいデザインを得て、非常に興味深い、おしゃれでインテリア性の高い商品になりました。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- 商品案内ページここまで -->
+<div id="pageborder">
+  <h2>お問い合わせ</h2>
+</div>
+
+<div class="container clearfix">
+  <div class="grid12 first">
+    <div id="inquiry">
+     <div id="inquirytext">
+      <h3>商品に関するご質問や、ご意見、ご希望など、なんでもお気軽にご連絡下さい。</h3>
+      <ul>
+        <li>必要事項を記入し確認するをクリックしてください。</li>
+        <li>「お名前」、「メールアドレス」、「ご質問・ご意見・ご希望」とも、全て必須事項ですので、ご記入宜しくお願いします。</li>
+        <li>ご登録いただいた個人情報は、お問い合わせ内容の確認以外には使用いたしません。</li>
+      </ul>
+      </div>
+      <form action="#">
+        <p><label>お名前<br>
+          <input type="text" name="name" required></label></p>
+          <p><label>メールアドレス<br>
+            <input type="email" name="mail" required></label></p>
+            <p>お問い合わせ種類<br>
+              <label><input type="radio" name="kind" value="0">商品構成・内容</label>　<label><input type="radio" name="kind" value="1">無料配送サービス</label>　<label><input type="radio" name="kind" value="2">その他</label></p>
+              <p><label>内容<br>
+                <textarea name="comment"></textarea></label></p>
+                <p><input class="btn" type="submit" value="確認する"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+
+<!-- お問い合わせここまで -->
+
+        <div id="pageborder">
+  <h2>会社案内</h2>
+</div
+
+  </body>
+  </html>
