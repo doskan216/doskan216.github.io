@@ -1,0 +1,25 @@
+.col-md-1 {
+  height: 50px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
+
+.col-md-4 {
+  height: 50px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
+
+
+.col-md-6 {
+  height: 50px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
+
+
+.col-md-8 {
+  height: 50px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+}
