@@ -23,20 +23,22 @@
           <div class=".container-fluid">
 
            <div class="row-fluid">
-            <div class="col-md-12" id="top">
-              <div class="col-md-6">
-                <h2 id="top2">carouseltest</h2>
-              </div>
-              <div class="col-md-6" id="breadcrumb">
-                <ol class="breadcrumb">
-                  <li><a data-target="#carousel_sample" data-slide-to="0" class="active">Top</a></li>
-                  <li><a data-target="#carousel_sample" data-slide-to="1" class="">2ページ目</a></li>
-                  <li><a data-target="#carousel_sample" data-slide-to="2" class="">3ページ目</a></li>
-                  <li><a data-target="#carousel_sample" data-slide-to="3" class="">4ページ目</a></li>
-                </ol>
+            <div class="col-md-6" id="top">
+              <div id="top2">
+                <img src="images/kandaportfolio.png" height="60" width="468">
               </div>
             </div>
+            <div class="col-md-6" id="top">
+             <div id="top3">
+              <ol class="breadcrumb">
+                <li><a id="breadcolor" data-target="#carousel_sample" data-slide-to="0" class="active">Top</a></li>
+                <li><a id="breadcolor" data-target="#carousel_sample" data-slide-to="1" class="">2ページ目</a></li>
+                <li><a id="breadcolor" data-target="#carousel_sample" data-slide-to="2" class="">3ページ目</a></li>
+                <li><a id="breadcolor" data-target="#carousel_sample" data-slide-to="3" class="">4ページ目</a></li>
+              </ol>
+            </div>
           </div>
+        </div>
 
 <!--
     data-ride="carousel"を入れると自動的にスライドが開始される
@@ -64,8 +66,11 @@
 
           <!-- item = １ページ、activeを入れたところが最初に表示される -->
           <div class="item active">
-            <img src="images/top1.jpg" height="1000" width="100%" alt="1">
+            <img src="images/top1.jpg" height="100%" width="100%" alt="1">
             <div class="carousel-caption">
+              <div id="titleimg">
+               <img src="images/kako-onj14jmjkIUJj5aT.png" height="100%" width="100%">
+              </div>
               <h2>サンプル画像１</h2>
               <p>１つ目のサンプル画像です。</p>
             </div>
@@ -97,7 +102,14 @@
   </body>
 
   <footer>
-    <p>footerですよー。</p>
-    <a data-target="#carousel_sample" data-slide-to="3" class="">テストリンク</a>
+    <div class=".container-fluid">
+
+     <div class="row-fluid">
+      <div class="col-md-12" id="top">
+        <div id="footertext">
+          <p id="test">Copyright© 2015 testman</p>
+        </div>
+      </div>
+    </div>
   </footer>
   </html>
