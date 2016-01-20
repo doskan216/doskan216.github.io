@@ -1,3 +1,7 @@
+body {
+  min-width: 640px;
+}
+
 #top{
   background-color: #26499d;
   margin-top: 0;
@@ -44,6 +48,7 @@ margin-left: auto;
 #titleimg {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
 }
 
 footer {
